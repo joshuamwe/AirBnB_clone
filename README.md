@@ -1,35 +1,43 @@
+0x01. AirBnB clone - Web static
+HTML
+CSS
+Front-end
+ By: Guillaume
+ Weight: 1
+ Project will start Mar 14, 2024 6:00 AM, must end by Mar 19, 2024 6:00 AM
+ Manual QA review must be done (request it when you are done with the project)
+Concepts
+For this project, we expect you to look at these concepts:
+
+HTML/CSS
+The trinity of front-end quality
+
+
 Background Context
-Welcome to the AirBnB clone project!
-Before starting, please read the AirBnB concept page.
+Web static, what?
+Now that you have a command interpreter for managing your AirBnB objects, it’s time to make them alive!
 
-First step: Write a command interpreter to manage your AirBnB objects.
-This is the first step towards building your first full web application: the AirBnB clone. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration…
+Before developing a big and complex web application, we will build the front end step-by-step.
 
-Each task is linked and will help you to:
+The first step is to “design” / “sketch” / “prototype” each element:
 
-put in place a parent class (called BaseModel) to take care of the initialization, serialization and deserialization of your future instances
-create a simple flow of serialization/deserialization: Instance <-> Dictionary <-> JSON string <-> file
-create all classes used for AirBnB (User, State, City, Place…) that inherit from BaseModel
-create the first abstracted storage engine of the project: File storage.
-create all unittests to validate all our classes and storage engine
-What’s a command interpreter?
-Do you remember the Shell? It’s exactly the same but limited to a specific use-case. In our case, we want to be able to manage the objects of our project:
+Create simple HTML static pages
+Style guide
+Fake contents
+No Javascript
+No data loaded from anything
+During this project, you will learn how to manipulate HTML and CSS languages. HTML is the structure of your page, it should be the first thing to write. CSS is the styling of your page, the design. I really encourage you to fix your HTML part before starting the styling. Indeed, without any structure, you can’t apply any design.
 
-Create a new object (ex: a new User or a new Place)
-Retrieve an object from a file, a database etc…
-Do operations on objects (count, compute stats, etc…)
-Update attributes of an object
-Destroy an object
+Before starting, please fork or clone the repository AirBnB_clone from your partner if you were not the owner of the previous project.
+
 Resources
 Read or watch:
 
-cmd module
-cmd module in depth
-packages concept page
-uuid module
-datetime
-unittest module
-args/kwargs
-Python test cheatsheet
-cmd module wiki page
-python unittest
+Learn to Code HTML & CSS (until “Creating Lists” included)
+Inline Styles in HTML
+Specifics on CSS Specificity
+CSS SpeciFishity
+Introduction to HTML
+CSS
+MDN
+center boxes
